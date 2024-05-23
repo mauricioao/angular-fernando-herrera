@@ -1,0 +1,9 @@
+
+<input
+  type="text"
+  [placeholder]="placeholder"
+  class="form-control"
+  (keyup.enter)="emitValue( txtInput.value )"
+  #txtInput
+>
+<!-- con el predicado #txtInput puede contruir el elemnto HTMl en la lógica del ts o mandar el valor directamente en el evento -->
